@@ -10,6 +10,22 @@ body
   background-color: #880e2154;
 }
 
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0rem) !important;
+    padding-left: var(--bs-gutter-x, 0rem) !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container1, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 2.75rem) !important;
+    padding-left: var(--bs-gutter-x, 2.75rem) !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 @media (max-width : 767px)
 {
 
